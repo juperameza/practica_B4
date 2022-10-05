@@ -180,3 +180,9 @@ body {
 hr.solid {
   border-top: 2px solid #bbb;
 }
+.titles-news {
+  color: rgb(224, 107, 61);
+}
+.aside-color {
+  background-color: rgb(39, 42, 44);
+}
