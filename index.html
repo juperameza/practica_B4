@@ -1,114 +1,459 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <title>Marca</title>
+    <title>MARCA Claro México - Diario online líder en información ...</title>
   </head>
   <body>
-    <header class="container-fluid">
-      <div class="row justify-content-center">
-        <img
-          src="assets/images/800px-Marca.svg.png"
-          alt="Logo marca"
-          class="rounded"
-          height="40px"
-        />
-
-        <div class="col-12">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+    <div class="container-fliud">
+      <!--Title-->
+      <div class="container">
+        <div class="row bg-ligth">
+          <div
+            class="col-4 my-2 d-none d-md-block text-left px-0"
+            style="font-size: 10px; font-weight: bold"
+          >
+            <a
+              href=""
+              style="text-decoration: none; color: black"
             >
-              <span class="navbar-toggler-icon"></span>
+              <img
+                src="assets/images/cuidateplus.svg"
+                alt="cuidate"
+                style="width: auto; height: 40px"
+              />
+              <samp>CuídatePlus</samp>
+            </a>
+            <a
+              href=""
+              style="text-decoration: none; color: black"
+            >
+              <img
+                src="assets/images/trending.svg"
+                alt="trending"
+                style="width: auto; height: 40px"
+              />
+              <samp>Lo+trending</samp>
+            </a>
+          </div>
+          <div class="col-12 text-center col-md-3">
+            <img
+              src="assets/images/800px-Marca.svg.png"
+              alt="MARCA"
+              style="height: 50px"
+              class="py-1"
+            />
+          </div>
+          <div class="col col-md-5 text-right d-none d-md-block mt-1 px-0">
+            <div
+              class="btn-group my-lg-2 my-md-0 pt-md-5 pb-md-0 pt-lg-0"
+              role="group"
+            >
+              <button
+                id="btnGroupDrop1"
+                type="button"
+                class="btn btn-sm btn-outline-secondary dropdown-toggle d-md-none d-lg-block"
+                style="border-color: rgb(220, 211, 211)"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <img
+                  src="assets/images/mx.png"
+                  alt="México"
+                  style="height: 20px"
+                  class="mx-1"
+                />
+                MX
+              </button>
+              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a class="dropdown-item" href="#">
+                  <img
+                    src="assets/images/mx.png"
+                    alt="México"
+                    style="height: 20px"
+                    class="mx-1"
+                  />
+                  MX (México)
+                </a>
+                <a class="dropdown-item" href="#">
+                  <img
+                    src="assets/images/esp.png"
+                    alt="España"
+                    style="height: 20px; width: 24px"
+                  />
+                  ES (España)
+                </a>
+              </div>
+            </div>
+            <button
+              type="button"
+              class="btn btn-sm btn-danger px-3 py-1 mx-1"
+              style="background-color: rgb(203, 23, 23)"
+            >
+              Suscríbete
             </button>
+            <button
+              type="button"
+              class="btn btn-sm btn-outline-secondary px-2 py-1"
+              style="border-color: rgb(220, 211, 211); color: rgb(203, 23, 23)"
+            >
+              Iniciar sesión
+            </button>
+          </div>
+        </div>
+      </div>
+      
+      <!--NavBar-->
+      <div class="container-fluid" style="background-color: rgb(203, 23, 23)">
+        <nav
+          class="navbar d-flex navbar-expand-md container text-white py-1"
+          style="font-weight: bold"
+        >
+          <a
+            class="navbar-brand d-block d-md-none"
+            style="background-color: white; color: rgb(203, 23, 23)"
+            href="#"
+            >MC</a
+          >
+          <button
+            class="navbar-toggler navbar-light"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="flex-grow-1">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#"
-                    >Home <span class="sr-only">(current)</span></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
                 <li class="nav-item dropdown">
                   <a
-                    class="nav-link dropdown-toggle"
+                    class="nav-link dropdown-toggle text-white"
                     href="#"
-                    id="navbarDropdown"
                     role="button"
                     data-toggle="dropdown"
-                    aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    Dropdown
+                    Fútbol
                   </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">Action</a>
                     <a class="dropdown-item" href="#">Another action</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Something else here</a>
                   </div>
                 </li>
-                <li class="nav-item">
+                <!--Dropdown-->
+                <li class="nav-item dropdown">
                   <a
-                    class="nav-link disabled"
+                    class="nav-link dropdown-toggle text-white"
                     href="#"
-                    tabindex="-1"
-                    aria-disabled="true"
-                    >Disabled</a
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Fútbol Internacional
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <!--Dropdown-->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Motor
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <!--Dropdown-->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Otros deportes
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li
+                  class="nav-item d-none d-lg-block pt-2 px-3"
+                  style="background-color: rgb(156, 24, 24)"
+                >
+                  <a
+                    href=""
+                    class="text-white"
+                    >#Coronavirus</a
                   >
                 </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link text-white">Más+</a>
+                </li>
               </ul>
-              <form class="form-inline my-2 my-lg-0">
+            </div>
+            <div class="flex-grow-0">
+              <form class="form-inline" style="position: relative">
                 <input
                   class="form-control mr-sm-2"
+                  style="font-size: 13px; width: 100%; padding-right: 40px"
                   type="search"
-                  placeholder="Search"
+                  placeholder="Buscar en marca.com"
                   aria-label="Search"
                 />
-                <button
-                  class="btn btn-outline-success my-2 my-sm-0"
-                  type="submit"
+                <div
+                  class="search-icon"
+                  style="
+                    position: absolute;
+                    background-image: url(assets/images/search.png);
+                    right: 15px;
+                  "
                 >
-                  Search
-                </button>
+                  <img
+                    src="assets/images/search.png"
+                    alt=""
+                    style="width: 25px; height: auto"
+                  />
+                </div>
               </form>
             </div>
-          </nav>
+          </div>
+        </nav>
+      </div>
+
+      <div class="container-fluid bg-ligth" style="background-color: #e8eaed">  
+        <div class="row d-flex justify-content-center">
+          <img
+            src="assets/images/1.png"
+            class="rounded mx-2 my-1 d-block"
+            style="width: auto; height: 30px"
+            alt="..."
+          />
+          <img
+            src="assets/images/2.png"
+            class="rounded mx-2 my-1 d-block"
+            style="width: auto; height: 30px"
+            alt="..."
+          />
+          <img
+            src="assets/images/3.png"
+            class="rounded mx-2 my-1 d-block"
+            style="width: auto; height: 30px"
+            alt="..."
+          />
+          <img
+            src="assets/images/4.png"
+            class="rounded mx-2 my-1 d-block"
+            style="width: auto; height: 30px"
+            alt="..."
+          />
+          <img
+            src="assets/images/5.png"
+            class="rounded mx-2 my-1 d-block"
+            style="width: auto; height: 30px"
+            alt="..."
+          />
+          <img
+            src="assets/images/6.png"
+            class="rounded mx-2 my-1 d-block"
+            style="width: auto; height: 30px"
+            alt="..."
+          />
+          <img
+            src="assets/images/7.png"
+            class="rounded mx-2 my-1 d-block"
+            style="width: auto; height: 30px"
+            alt="..."
+          />
+          <img
+            src="assets/images/8.png"
+            class="rounded mx-2 my-1 d-block"
+            style="width: auto; height: 30px"
+            alt="..."
+          />
+          <img
+            src="assets/images/9.png"
+            class="rounded mx-2 my-1 d-block"
+            style="width: auto; height: 30px"
+            alt="..."
+          />
+          <img
+            src="assets/images/10.png"
+            class="rounded mx-2 my-1 d-block"
+            style="width: auto; height: 30px"
+            alt="..."
+          />
+          <img
+            src="assets/images/11.png"
+            class="rounded mx-2 my-1 d-block"
+            style="width: auto; height: 30px"
+            alt="..."
+          />
+          <img
+            src="assets/images/12.png"
+            class="rounded mx-2 my-1 d-block"
+            style="width: auto; height: 30px"
+            alt="..."
+          />
+          <img
+            src="assets/images/13.png"
+            class="rounded mx-2 my-1 d-block"
+            style="width: auto; height: 30px"
+            alt="..."
+          />
+          <img
+            src="assets/images/14.png"
+            class="rounded mx-2 my-1 d-block"
+            style="width: auto; height: 30px"
+            alt="..."
+          />
+          <img
+            src="assets/images/15.png"
+            class="rounded mx-2 my-1 d-block"
+            style="width: auto; height: 30px"
+            alt="..."
+          />
+          <img
+            src="assets/images/16.png"
+            class="rounded mx-2 my-1 d-block"
+            style="width: auto; height: 30px"
+            alt="..."
+          />
+          <img
+            src="assets/images/17.png"
+            class="rounded mx-2 my-1 d-block"
+            style="width: auto; height: 30px"
+            alt="..."
+          />
+          <img
+            src="assets/images/18.png"
+            class="rounded mx-2 my-1 d-block"
+            style="width: auto; height: 30px"
+            alt="..."
+          />
         </div>
       </div>
-    </header>
-    <!-- JavaScript Bundle with Popper -->
+
+      <!--Footer-->
+      <div
+        class="container-fliud text-center mt-3 pb-5 pt-2 px-3"
+        style="background-color: #e8eaed"
+      >
+        <div class="row">
+          <div class="col-12 my-2" style="font-size: 13px; font-weight: bolder">
+            <h6
+              >© Octubre   2022 Unidad Editorial Información Deportiva, S.L.U.
+              Todos los derechos reservados.</h6
+            >
+          </div>
+          <!--End first col-->
+          <div class="col-12" style="font-size: 13px">
+            <a href="" class="mx-2 text-dark" style="text-decoration: none"
+              >Política de cookies</a
+            >
+            <a href="" class="mx-2 text-dark" style="text-decoration: none"
+              >Configuración de cookies</a
+            >
+            <a href="" class="mx-2 text-dark" style="text-decoration: none"
+              >Política de privacidad</a
+            >
+            <a href="" class="mx-2 text-dark" style="text-decoration: none"
+              >Términos y condiciones de uso</a
+            >
+            <a href="" class="mx-2 text-dark" style="text-decoration: none"
+              >Certificado por OJD</a
+            >
+            <a href="" class="mx-2 text-dark" style="text-decoration: none"
+              >Contacto</a
+            >
+            <a href="" class="mx-2 text-dark" style="text-decoration: none"
+              >Publicidad</a
+            >
+            <a href="" class="mx-2 text-dark" style="text-decoration: none"
+              >Ayuda</a
+            >
+          </div>
+          <!--End second col-->
+          <div class="col-12 my-4" style="font-size: 13px; font-weight: bolder">
+            <h6>Síguenos en</h6>
+            <div class="col mt-2">
+              <img
+                src="assets/images/fb.png"
+                alt="facebook"
+                style="height: auto; width: 36px"
+              />
+              <img
+                src="assets/images/tw.png"
+                alt="twitter"
+                style="height: auto; width: 36px; margin: 0px 25px"
+              />
+              <img
+                src="assets/images/wifi.png"
+                alt="rss"
+                style="height: auto; width: 36px"
+              />
+            </div>
+          </div>
+          <!--End tirdth col-->
+        </div>
+        <!--End row Footer-->
+      </div>
+      <!--End container Footer-->
+    </div>
+    <!--End fluid container-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
   </body>
