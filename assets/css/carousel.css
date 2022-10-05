@@ -177,3 +177,6 @@ body {
 .card-header {
   background-color: rgb(223, 223, 223);
 }
+hr.solid {
+  border-top: 2px solid #bbb;
+}
