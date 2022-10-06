@@ -186,3 +186,23 @@ hr.solid {
 .aside-color {
   background-color: #f5f7fa;
 }
+
+.header {
+  position: fixed;
+  top: auto;
+  z-index: 1;
+  width: 83.5%;
+  background-color: #f1f1f1;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #04AA6D;
+  width: 0%;
+}
