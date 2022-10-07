@@ -22,14 +22,9 @@ $("#carousel-example").on("slide.bs.carousel", function (e) {
     }
   }
 });
-
-function myFunction() {
-  var winScroll = document.getElementById("info").scrollTop;
-  var height = document.getElementById("info").scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("myBar").style.width = scrolled + "%";
-}
-
-window.onscroll = function() {
-  myFunction()
-};
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top-cs");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+  });
+});

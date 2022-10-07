@@ -4,9 +4,9 @@
 */
 
 .navbar-fixed-top-cs.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
-  position: sticky !important;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+  z-index: 7;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   /* Show 4th slide on md if col-md-4*/
@@ -209,6 +209,6 @@ hr.solid {
 
 .progress-bar {
   height: 8px;
-  background: #04AA6D;
+  background: #04aa6d;
   width: 0%;
 }
